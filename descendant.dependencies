@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "Descendant-Devices/vendor_xiaomi_lmi",
+    "target_path": "vendor/xiaomi/lmi",
+    "branch": "eleven"
+  },
+  {
+    "remote": "github",
+    "repository": "Descendant-Devices/vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera",
+    "branch": "eleven"
+  }
+]
