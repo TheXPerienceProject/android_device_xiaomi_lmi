@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/descendant_lmi.mk
+    $(LOCAL_DIR)/xperience_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    descendant_lmi-user \
-    descendant_lmi-userdebug \
-    descendant_lmi-eng
+    xperience_lmi-user \
+    xperience_lmi-userdebug \
+    xperience_lmi-eng

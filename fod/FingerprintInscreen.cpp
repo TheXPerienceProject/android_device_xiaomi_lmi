@@ -39,7 +39,7 @@
 #define BRIGHTNESS_PATH "/sys/class/backlight/panel0-backlight/brightness"
 
 namespace vendor {
-namespace lineage {
+namespace xperience {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
@@ -180,5 +180,5 @@ Return<void> FingerprintInscreen::setCallback(const sp<IFingerprintInscreenCallb
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
-}  // namespace lineage
+}  // namespace xperience
 }  // namespace vendor

@@ -75,12 +75,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-parts.xml
 
-# Descendant settings
-
-TARGET_FACE_UNLOCK_SUPPORT := YES
-PRODUCT_BOARD_PLATFORM := sm8250
-PRODUCT_USES_QCOM_HARDWARE := true
-
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
@@ -95,9 +89,9 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
-    vendor/descendant/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    vendor/xperience/prebuilt/etc/permissions/vendor.xperience.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xperience.biometrics.fingerprint.inscreen.xml
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.lmi
+    xperience.biometrics.fingerprint.inscreen@1.0-service.lmi
 
 
 # FIXME: master: compat for libprotobuf
