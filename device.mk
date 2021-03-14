@@ -68,6 +68,14 @@ PRODUCT_PACKAGES += \
     libcryptfs_hw \
     vendor.qti.hardware.cryptfshw@1.0
 
+# Doze
+PRODUCT_PACKAGES += \
+    XPerienceDoze
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.sensor.proximity=true \
+    ro.sensor.pickup=xiaomi.sensor.pickup
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
